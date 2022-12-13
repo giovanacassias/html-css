@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <video width="560" controls autoplay loop> <!--loop funcionando já o autoplay não-->
+        <source src="medias/meu-video.mp4" type="video/mp4">
+        <source src="medias/meu-video.webm" type="video/webm">
+    <!--quanto mais sources você tiver maior as chances de compatibilidade nos diversos navegadores-->
+    <!--a ordem importa!-->
+    <!--para colocar uma capa no vídeo adicionar poster="local da imagem" em "vídeo"-->
+    <!--vídeos hospedados localmentes PODEM GERAR CUSTOS ALTOS - custo de tráfego da hospedagem-->
+</video>
+    <div>
+        <h1>Inserindo vídeos externos - vídeo do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f02mOEt11OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--para incorporar vídeo do Youtube basta clicar em compartilhar e incorporar-->
+    </div>
+</body>
+</html>

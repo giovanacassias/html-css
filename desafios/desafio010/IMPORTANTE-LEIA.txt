@@ -1,0 +1,7 @@
+READ ME
+
+Decidi fazer esse desafio sozinha primeiro (android.html), sem assistir aos vídeos, ler as instruções do PDF ou ler o código. Olhando apenas o print da tela que estava no PDF,
+fui tentando recriar o site com os conhecimentos adquiridos até então no curso. Depois de finalizado, refiz o desafio (corrigido.html), agora seguindo os vídeos explicativos do
+Professor Gustavo Guanabara. Apliquei o que sempre fiz com meus alunos, tentei fazer sozinha para ver o quanto de conhecimento eu aprendi e colocando-os em prática. Depois,
+ao refazer, fui analizando meus erros e acertos para aprender com os erros e também adquiri novos apredizados e conceitos como responsivididade (especialmente de embed videos),
+variáveis em CSS, root, algumas novas estilizações em CSS e framework.

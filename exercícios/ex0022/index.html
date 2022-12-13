@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lour</title>
+    <style>
+        @font-face {
+            font-family:"Lemon";
+            src: url(fontes/LEMONMILK-Regular.otf);
+        }
+
+        @font-face {
+            font-family:"Stretch";
+            src: url(fontes/StretchPro.otf);
+        }
+
+        @font-face {
+            font-family:"Turbo";
+            src: url(fontes/turb0lence.ttf);
+        }
+
+        @font-face {
+            font-family:"Lex";
+            src: url(fontes/IBMPlexMono-ExtraLight.ttf);
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: auto;
+        }
+
+        header {
+            font-family: "Lex";
+            background-color: #606C38;
+            text-align: center;
+            height: 120px;
+           
+        }
+
+        h1.marca {
+            font-family: "Stretch";
+            font-size: 5em;
+            color: #FEFAE0;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #606C38;
+            font-family: "Lex";
+            font-size: 1.2em;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        nav > a {
+            color:#FEFAE0;
+            text-decoration: none; /*tira o sublinhado dos links*/
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            text-align: justify;
+            background-color: #dda25e6f;
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        article > p {
+            font-size: 1.2em;
+            text-align: justify;
+            text-indent:20pt;
+            padding: 25px;
+            margin: 0px;
+        }
+
+        h2{
+            font-family: "Lex";
+            color: #BC6C25;
+            font-size: 2.2em;
+            font-weight:bolder;
+            text-align: center;
+            margin: 0;
+            padding-top: 20px;
+            
+        }
+
+        article > aside {
+            background-color: #606C38;
+            text-align: right;
+            font-family: "Lex";
+            font-size: 1em;
+            color: #FEFAE0;
+            padding: 1px;
+        }
+
+        aside > p {
+            margin: 0;
+        }
+
+        main {
+            background-color: #FEFAE0;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px #bc6b2571;
+        }
+
+        footer {
+            background-color: #606C38;
+            color:#FEFAE0;
+            text-align: center;
+            padding: 2px;
+        }
+
+        footer > p {
+            margin: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="marca">LOOUR</h1>
+    </header>
+    <nav>
+        <a href="#">MÓVEIS</a>
+        <a href="#">ACESSÓRIOS</a>
+        <a href="#">AMBIENTES</a>
+        <a href="#">PROMOÇÕES</a>
+        <a href="#">CONTATO</a>
+    </nav>
+    <main>
+        <section id="coleções">
+            <article>
+                <h2>Coleção terra</h2>
+                <br>
+                <img src="imagens/terra-g.jpg" width="500px" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut temporibus qui voluptates dolorum possimus at laudantium voluptatem fugiat, molestiae obcaecati laborum ducimus unde ea, minima impedit nostrum eveniet nemo assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nemo blanditiis? Id, fugiat. Numquam praesentium impedit exercitationem reiciendis corrupti, neque perspiciatis voluptas eligendi dolores nam nisi vitae dolorum ea atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio aperiam ducimus debitis corrupti beatae quidem. Obcaecati nam beatae veritatis perspiciatis iusto ea, adipisci, a libero nemo molestias unde magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis temporibus at unde id suscipit culpa soluta aspernatur debitis aperiam atque officiis dolores labore quibusdam, minima eum ea excepturi eligendi aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam placeat, suscipit, quasi rerum, nesciunt eum eos necessitatibus adipisci facilis ipsum molestiae optio! Accusantium quod obcaecati distinctio doloribus saepe fuga.</p>
+                <aside>
+                    <p>Matéria escrita por Giovana Cassias</p>
+                </aside>
+                <h2>Coleção mar</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut temporibus qui voluptates dolorum possimus at laudantium voluptatem fugiat, molestiae obcaecati laborum ducimus unde ea, minima impedit nostrum eveniet nemo assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nemo blanditiis? Id, fugiat. Numquam praesentium impedit exercitationem reiciendis corrupti, neque perspiciatis voluptas eligendi dolores nam nisi vitae dolorum ea atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio aperiam ducimus debitis corrupti beatae quidem. Obcaecati nam beatae veritatis perspiciatis iusto ea, adipisci, a libero nemo molestias unde magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis temporibus at unde id suscipit culpa soluta aspernatur debitis aperiam atque officiis dolores labore quibusdam, minima eum ea excepturi eligendi aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. A aperiam placeat, suscipit, quasi rerum, nesciunt eum eos necessitatibus adipisci facilis ipsum molestiae optio! Accusantium quod obcaecati distinctio doloribus saepe fuga.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CRYSSIAS</p>
+    </footer>
+
+</body>
+</html>
