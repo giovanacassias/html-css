@@ -7,12 +7,29 @@
     <title>Tamanho da imagem de fundo</title>
     <style>
 
-        body {
-            height: 97vh;
+        /* 
+            Instead of writing:
+
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+
+            Write this:
+
+            background: black url(imagens/wallpaper002.jpg) no-repeat fixed center center;
+            background-size: cover; 
+
+            SHORTHAND ORDER: color image repeat attachment position
+        
+        */
+
+
+        body {
+            height: 97vh;
+            background: black url(imagens/wallpaper002.jpg) no-repeat fixed center center;
             background-size: cover;
         }
 
@@ -23,8 +40,6 @@
             padding: 10px;
             margin: auto;
         }
-
-        /*esse problema da quebra de imagem de fundo será resolvido no próximo exercício*/
 
     </style>
 </head>
