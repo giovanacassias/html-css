@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio tabela</title>
+    <style>
+        table {
+            width: 500px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+
+        caption {
+            background-color: burlywood;
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5em;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana</td>
+                <td>Batman</td>
+                <td>Hulk</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <td>Jessica</td>
+                <td>Dori</td>
+                <td>Run</td>
+                <td>Taxi</td>
+            </tr>
+            <tr>
+                <td>Bia</td>
+                <td>Maze Runner</td>
+                <td>Mad Maxi</td>
+                <td>Resident Evil</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Jorge</td>
+                <td>Shrek</td>
+                <td>Madagascar</td>
+                <td>Oblivion</td>
+            </tr>
+            <tr>
+                <td>Hedgar</td>
+                <td>Interestelar</td>
+                <td>Viveiro</td>
+                <td>Carros</td>
+            </tr>
+            <tr>
+                <td>Celso</td>
+                <td>Bacurau</td>
+                <td>Star Wars</td>
+                <td>Ma</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
