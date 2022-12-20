@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            position: relative;
+            border-collapse: collapse;
+            font-size: 1.1em;
+        }
+
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            background-color: ;
+            font-weight: bolder;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: burlywood;
+        }
+
+        th, td {
+            width: 500px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: antiquewhite;
+
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;;
+        }
+
+
+
+        /*HIERARQUIA DE TABELAS GRANDES
+
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+            TR, TD, TH
+        TABLE
+
+        */
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com tabelas grandes</h1>
+    <table>
+        <caption>Top 5 best-selling songs of all time</caption>
+        <thead>
+            <tr>
+                <th scope="col">Position</th>
+                <th scope="col">Song</th>
+                <th scope="col">Artist</th>
+                <th scope="col">Copies sold</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>White Christmas</td>
+                <td>Irving Berlin</td>
+                <td>52 million</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shapes of You</td>
+                <td>Ed Sheeran</td>
+                <td>42 million</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Despacito</td>
+                <td>Luis Fonsi</td>
+                <td>38 million</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Candle in the Wind</td>
+                <td>Elton John</td>
+                <td>33 million</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>In the Summertime</td>
+                <td>Mungo Jerry</td>
+                <td>31 million</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row"><a href="https://www.alltopeverything.com/top-10-songs-of-all-time/" target="_blank">Source</a></th>
+        </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
