@@ -9,3 +9,7 @@
 <p>Projeto criado no capítulo 20 do módulo 3, onde fizemos uma page do cordel de Milton Duarte.</p>
 <p>Project created in chapter 20 module 3, where we`ve done a page dedicated to "Cordel Moderno", a cordel about technology by Milton Duarte.</p>
 
+<h2><a href="https://giovanacassias.github.io/projeto-social/">Projeto Social</a></h2>
+<p>Projeto criado no capítulo 23 do módulo 4, onde fizemos uma page de redes sociais usando iframes.</p>
+<p>Project created in chapter 23 module 4, where we`ve done a page presenting social medias using iframes.</p>
+
