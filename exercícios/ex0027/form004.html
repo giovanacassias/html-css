@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <h1>Formulário</h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required placeholder="nome completo">
+            </p>
+            <p>
+                <label for="ifone">Telefone</label>
+                <input type="tel" name="fone" id="ifone" required placeholder="(xx) xxxx-xxxx">
+                <!--Estudar expressões regulares RegEx - não está funcionando o pattern do tel  pattern="^\\d{2}\)\d{4,5}-\d{4}$"-->
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" placeholder="seuemail@aqui.com.br">
+            </p>
+            <p>
+                <p>Qual gênero você se identifica?</p>
+                <label for="ifem">Feminino</label>
+                <input type="radio" name="genero" id="ifem"><br>
+                <label for="imas">Masculino</label>
+                <input type="radio" name="genero" id="imas">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferências</legend>
+            <p>
+                <p>Selecione suas bandas preferidas:</p>
+                <label for="ixx">The XX</label>
+                <input type="checkbox" name="xx" id="ixx"><br>
+                <label for="ibf">Between Friends</label>
+                <input type="checkbox" name="bf" id="ibf"><br>
+                <label for="itender">Tender</label>
+                <input type="checkbox" name="tender" id="itender"><br>
+                <label for="imonsters">Of Monsters and Men</label>
+                <input type="checkbox" name="monsters" id="imonsters"><br>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
