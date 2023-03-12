@@ -14,7 +14,7 @@
 <p>Project created in chapter 23 module 4. We`ve done a page presenting social medias using iframes.</p>
 
 <h2><a href="https://giovanacassias.github.io/projeto-login/">Projeto Login</a></h2>
-<p>Projeto criado no final do módulo 4. Construi minha primeira tela de login utilizando media queries para diversas telas.</p>
-<p>Project created in the final part of module 4. I`ve created my first login screen using media queries for different screens.</p>
+<p>Projeto criado no final do módulo 4. Construi minha primeira tela de login utilizando media queries.</p>
+<p>Project done in the final part of module 4. I`ve created my first login screen using media queries.</p>
 
 
